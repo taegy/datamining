@@ -1,14 +1,7 @@
-=========Group Names and Group ID==========================
-GroupID: her001
-GroupMembers:
-1) Chng Jun Er Carolyn - jchng001 (U1220913G)
-2) Er Hui Yuan - her001 (U1221832G)
-3) Hoe Jia Chang Kenny - jhoe002 (U1221549L)
-4) Hwang Taegyeong - n1403661l (N1403661L)
-5) Leong Pui Cheng - pleong001 (U1222662L)
-6) Low Kuan Wei - klow001 (U1221220C)
-7) Tan Teck Siong, Leonard - ltan007 (U1221567B)
-
+In a direct marketing campaign, a study had been conducted to determine if a bank client would subscribe to a term deposit.
+This program analyse collected data using Naive Bayes algorithm and ID3 algorithm in order to find out if the data attributes have a direct
+influence in subscribing a term deposit.
+A dataset from the UCI Machine Learning Repository was used.
 
 =========== Steps to run Naive Bayes Classifier ===========
 1) Import .java files into a Java project
@@ -18,7 +11,8 @@ GroupMembers:
 
 Note:
 - Files can taken from "Sampling Data" folder
-- To look at misclassified rows, set 2nd parameter of classifyData(String csvFile, boolean writeMisclassify) to true. All misclassified rows will be written to a .txt file.
+- To look at misclassified rows, set 2nd parameter of classifyData(String csvFile, boolean writeMisclassify) to true. All misclassified
+rows will be written to a .txt file.
 - Calculation of accuracy and misclassification only works if test data has already been classified.
 
 =============== Steps to run ID3 ==========================
